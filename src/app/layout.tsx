@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="container mx-auto h-screen max-w-full">
       <body>{children}</body>
     </html>
   )
