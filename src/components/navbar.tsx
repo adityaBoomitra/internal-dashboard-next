@@ -12,7 +12,7 @@ const Navbar = (): JSX.Element => {
             alt="Boomitra Logo"
           />
         </a>
-        <div className="flex items-center md:order-2">
+        {/* <div className="flex items-center md:order-2">
           <button
             type="button"
             className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
@@ -148,7 +148,7 @@ const Navbar = (): JSX.Element => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

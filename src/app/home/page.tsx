@@ -1,5 +1,5 @@
-import Navbar from "../../components/navbar";
-import ClickableCard from "../../components/ui/card"
+import Navbar from "@/components/navbar";
+import ClickableCard from "@/components/ui/card"
 import projects from "../data/projects";
 
 export const metadata = {
