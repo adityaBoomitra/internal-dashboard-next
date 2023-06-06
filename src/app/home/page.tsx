@@ -1,4 +1,6 @@
 import Navbar from "../../components/navbar";
+import ClickableCard from "../../components/ui/card"
+import projects from "../data/projects";
 
 export const metadata = {
   title: "Home | Admin Dashboard",
@@ -9,8 +11,8 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col md:h-screen">
-        <h1>Hihiihihi</h1>
+      <div className="grid grid-cols-4 gap-4 p-10">
+        {projects.map((item, index) => <ClickableCard key={index} data={item}/>)}
       </div>
     </>
   );
