@@ -1,13 +1,10 @@
 'use client';
 import Image from "next/image";
 import { useRouter } from 'next/navigation';
-import { useState } from "react";
 
 
 const Login = () => {
   const router = useRouter();
-  const [email, setEmail] = useState()
-  const [password, setPassword] = useState()
 
   const onSubmit = (e:any) => {
     e.preventDefault()
@@ -20,8 +17,8 @@ const Login = () => {
     
   }
   return (
-    <div className="flex flex-col items-center md:flex-row md:h-screen">
-    <div className="flex items-center justify-center w-full md:w-1/2">
+    <div className="flex flex-col items-center md:flex-row md:h-screen p-20">
+    <div className="flex items-center justify-center w-full md:w-1/2 ">
       <Image src="/climate.png" alt="Login Image" width={800} height={600} className="rounded-xl"/>
     </div>
     <div className="flex flex-col items-center justify-center w-full md:w-1/4 m-10">
